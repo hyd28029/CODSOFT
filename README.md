@@ -39,3 +39,24 @@ In this task, I built a *regression model* to predict *IMDB movie ratings* based
 - Screenshots of the code and results  
 
 ---
+
+## Task 3 - Iris Flower Classification 🌸  
+
+In this task, I built a *classification model* to predict the species of Iris flowers using the famous *Iris dataset*.  
+
+### 🔹 Steps Involved:
+- Loaded and explored the Iris dataset.  
+- Performed data visualization using pairplots to understand feature distribution.  
+- Preprocessed the data and split it into training and testing sets.  
+- Trained a *Logistic Regression model* for classification.  
+- Evaluated the model using *Accuracy, Classification Report, and Confusion Matrix*.  
+
+### 🔹 Results:
+- Model Accuracy: *100% (1.0)* 🎯  
+- The dataset is linearly separable, hence Logistic Regression achieved perfect classification.  
+
+### 🔹 Files:
+- Task 3 - Iris Flower Classification.ipynb (Google Colab Notebook)  
+- Screenshots of dataset exploration, visualizations, accuracy report, and confusion matrix  
+
+---

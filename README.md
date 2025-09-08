@@ -57,6 +57,82 @@ In this task, I built a *classification model* to predict the species of Iris fl
 
 ### 🔹 Files:
 - Task 3 - Iris Flower Classification.ipynb (Google Colab Notebook)  
-- Screenshots of dataset exploration, visualizations, accuracy report, and confusion matrix  
+- Screenshots of dataset exploration, visualizations, accuracy report, and confusion matrix.
+-----
 
 ---
+
+📊 Task 4 – Sales Prediction Using Python
+
+📌 Project Overview
+
+Sales prediction is the process of forecasting the amount of a product that customers will purchase, considering various factors such as advertising expenditure across TV, Radio, and Newspaper.
+This project applies Machine Learning (Linear Regression) in Python to analyze and interpret the relationship between advertising spends and sales.
+
+By leveraging these predictions, businesses can optimize their marketing strategies, reduce costs, and maximize sales potential.
+
+
+---
+
+📂 Dataset
+
+We use the Advertising dataset, which contains:
+
+TV Advertising Spend (in $)
+
+Radio Advertising Spend (in $)
+
+Newspaper Advertising Spend (in $)
+
+Sales (in $)
+---
+
+⚙ Steps Performed
+
+1. Data Loading & Exploration – Inspect dataset, check missing values, summary stats.
+
+
+2. Data Visualization – Scatter plots & correlation heatmap.
+
+
+3. Model Building – Linear Regression model using scikit-learn.
+
+
+4. Evaluation – Mean Squared Error (MSE) & R² score for accuracy.
+
+
+5. Visualization – Actual vs Predicted sales graph.
+
+
+6. Prediction – Predict sales for new advertising spend inputs.
+
+---
+
+🛠 Technologies Used
+
+Python 🐍
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+scikit-learn
+
+---
+
+📊 Results
+
+The model provides a strong correlation between advertising spends and sales.
+
+Achieved a high R² score, showing the model explains most of the variance in sales.
+
+Example Prediction:
+
+Input → TV=230.1, Radio=37.8, Newspaper=69.2
+
+Output → Predicted Sales ≈ 21.5
+----
